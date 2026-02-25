@@ -4,9 +4,9 @@ markdown:
     hide: true
 ---
 
-# IPXO Missions
+# IPXO API
 
-Embark on missions to master the art of time manipulation with Warp. Choose a mission to get started:
+Embark on API to start automating your IP leases:
 
 {% cards columns=2 %}
 {% card title="The Lost Invention" to="./lost-invention.md" %}
