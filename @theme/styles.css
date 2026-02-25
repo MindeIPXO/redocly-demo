@@ -8,3 +8,8 @@
   background-color: var(--color-persian-green-6);
   color: #fff;
 }
+
+/* Make OpenAPI root pages (service names) bold */
+nav a[href$=".yaml"] {
+  font-weight: 600;
+}
