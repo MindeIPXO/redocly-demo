@@ -9,6 +9,9 @@ tags:
   - name: Stock
     description: Stock operations
 
+servers:
+  - url: https://apigw.ipxo.com/inventory
+
 paths:
   /items:
     get:
