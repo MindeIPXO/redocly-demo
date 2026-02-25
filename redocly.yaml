@@ -17,6 +17,8 @@ navbar:
       label: Guides
     - page: apis/index.yaml
       label: API Reference
+    - page: apis/billing.yaml
+      label: Billing API
     - page: tools/index.md
       label: Tools
     - page: changelog.md
