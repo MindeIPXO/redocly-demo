@@ -20,23 +20,23 @@ export default function HomePage() {
       <HeroContainer>
         <HeroBg />
         {/* <Image srcSet={`${require('./images/grid.svg')} light, ${require('./images/grid-dark.svg')} dark`} /> */}
-        <h1>Time Travel API</h1>
-        <p>Bend Time with the First API for Time Travel</p>
+        <h1>IPXO API</h1>
+        <p>IPXO APIs for IP lease or rental management</p>
         <Button size="large" variant="primary" tone="brand" to="/guides/quickstart">
           Get started
         </Button>
         <CardWithCode
           title="Quickstart"
-          description="Set up your environment and make your first call to warp you one second into the future."
+          description="Set up your environment and make your first call to the IPXO API."
           code={code}
         />
       </HeroContainer>
       <Container>
-        <h3>Accelerate Your Development with the Power of Time</h3>
+        <h3>Accelerate Your Development with the Power of IP Management</h3>
         <p>
-          Warp is the groundbreaking API that allows you to navigate, manipulate, and control time. Whether you need to
-          fix critical mistakes, explore alternative histories, or ensure future success, Warp gives you the tools to do
-          so with precision and safety.
+          IPXO is the groundbreaking API that allows you to lease, manage, and control IP addresses. Whether you need to
+          optimize your network, ensure compliance, or enhance security, IPXO gives you the tools to do
+          so with precision and efficiency.
         </p>
       </Container>
       <Container>
