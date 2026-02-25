@@ -8,3 +8,5 @@
   items:
     - page: billing.yaml
       label: Billing API
+    - page: inventory.yaml
+      label: Inventory API
