@@ -4,7 +4,7 @@ markdown:
     hide: true
 ---
 
-# Warp Missions
+# IPXO Missions
 
 Embark on missions to master the art of time manipulation with Warp. Choose a mission to get started:
 
