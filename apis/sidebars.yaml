@@ -3,7 +3,7 @@
 
 - separator: Services
 
-- group: Core Services
+- group: IPXO Services
   expanded: true
   items:
     - page: billing.yaml
