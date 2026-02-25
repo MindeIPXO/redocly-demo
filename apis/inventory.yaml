@@ -12,18 +12,23 @@ tags:
 paths:
   /items:
     get:
-      tags:
-        - Items
+      tags: [Items]
+      operationId: listItems
       summary: List items
-
-  /items/{sku}:
-    get:
-      tags:
-        - Items
-      summary: Get item
+      responses:
+        "200":
+          description: OK
 
   /items/{sku}/stock-adjustments:
     post:
-      tags:
-        - Stock
+      tags: [Stock]
+      operationId: adjustStock
       summary: Adjust stock
+      parameters:
+        - name: sku
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: OK
