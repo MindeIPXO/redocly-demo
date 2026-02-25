@@ -10,7 +10,7 @@
 }
 
 /* Make OpenAPI root pages (service names) bold */
-nav a[href$=".yaml"] {
+nav a[href^="/apis/"] {
   font-weight: 600;
-  color: #1E3A8A; /* your primary */
 }
+
