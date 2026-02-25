@@ -40,3 +40,4 @@ footer:
       label: Cookies
 mockServer:
   position: last
+  off: true
