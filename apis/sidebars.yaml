@@ -3,10 +3,14 @@
 
 - separator: Services
 
-- group: IPXO Services
-  expanded: true
+- group: Billing API
+  expanded: false
   items:
     - page: billing.yaml
-      label: Billing API
+      label: Endpoints
+
+- group: Inventory API
+  expanded: true
+  items:
     - page: inventory.yaml
-      label: Inventory API
+      label: Endpoints
