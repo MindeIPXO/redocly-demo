@@ -1,0 +1,10 @@
+- page: index.yaml
+  label: API Reference
+
+- separator: Services
+
+- group: Core Services
+  expanded: true
+  items:
+    - page: billing.yaml
+      label: Billing API

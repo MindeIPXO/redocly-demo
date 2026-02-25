@@ -7,8 +7,8 @@ links:
   - href: https://fonts.googleapis.com/css2?family=VT323&display=swap
   - href: https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap
 seo:
-  title: Warp API
-  description: Warp is the groundbreaking API that allows you to navigate, manipulate, and control time.
+  title: IPXO API
+  description: IPXO is the groundbreaking API that allows you to lease IPs easily.
 navbar:
   items:
     - page: tutorials/index.md
@@ -17,8 +17,6 @@ navbar:
       label: Guides
     - page: apis/index.yaml
       label: API Reference
-    - page: apis/billing.yaml
-      label: Billing API
     - page: tools/index.md
       label: Tools
     - page: changelog.md
